@@ -1,0 +1,32 @@
+# Clock Input
+NET "s_CLK" LOC = "P23";
+
+# Clock Output
+NET "s_CLK_Out" LOC = "P12";
+
+# Input Signal
+NET "s_cout" LOC = "P27";
+
+# 7-Segment Display Outputs
+NET "s_QA" LOC = "P13";
+NET "s_QB" LOC = "P14";
+NET "s_QC" LOC = "P16";
+NET "s_QD" LOC = "P18";
+NET "s_QE" LOC = "P19";
+NET "s_QF" LOC = "P20";
+NET "s_QG" LOC = "P21";
+NET "s_QH" LOC = "P22";
+
+# DAC Outputs
+NET "s_A" LOC = "P37";
+NET "s_B" LOC = "P32";
+NET "s_C" LOC = "P31";
+NET "s_D" LOC = "P30";
+NET "s_E" LOC = "P38";
+NET "s_F" LOC = "P39";
+NET "s_G" LOC = "P40";
+NET "s_H" LOC = "P41";
+
+# Status Outputs
+NET "s_SH"   LOC = "P28";
+NET "s_ZERO" LOC = "P29";
