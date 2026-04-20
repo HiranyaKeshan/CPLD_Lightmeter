@@ -1,2 +1,38 @@
-# CPLD_Lightmeter
-Verilog source files, logic partitions and supporting design files for the two CPLD implementation of a custom lightmeter. Includes the digital control logic, display logic and hardware design resources used to optimize the original discrete component lightmeter design.
+# CPLD Based Lightmeter
+
+This repository contains the Verilog and supporting design files for the two-CPLD implementation of a custom lightmeter project.
+
+## Overview
+
+The original lightmeter was first developed using discrete electronic components. To improve reliability, reduce hardware complexity, and optimize PCB implementation, the digital subsystem was later redesigned using CPLDs.
+
+This repository includes the logic files for both CPLDs, along with the design resources used to partition the system into separate programmable devices.
+
+## Project Scope
+
+The CPLD-based implementation covers:
+
+- Timing and control logic
+- BCD counting and state handling
+- Data capture and buffering
+- Display output logic
+- Logic partitioning across two CPLDs
+
+## Contents
+
+- Verilog source files
+- CPLD-specific logic modules
+- Supporting design files
+- Project resources used during development
+
+## Hardware Notes
+
+The design was implemented around Xilinx XC9536XL CPLDs and was developed to fit the available macrocell resources while preserving the intended lightmeter behavior.
+
+## Purpose
+
+This repository is intended to document the programmable logic version of the lightmeter and preserve the design files used for implementation, testing, and PCB integration.
+
+## Author
+
+Hiranya Keshan
