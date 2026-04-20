@@ -2,7 +2,11 @@
 
 This repository contains the Verilog and supporting design files for the CPLD based implementation of a custom lightmeter project.
 
-<img width="3024" height="4032" alt="Testsetup" src="https://github.com/user-attachments/assets/d54c3d11-a2d7-408d-8919-0bf6f5efa2e7" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d54c3d11-a2d7-408d-8919-0bf6f5efa2e7" 
+       alt="Test setup" 
+       style="max-width: 100%; height: auto;" />
+</p>
 
 ## Overview
 
