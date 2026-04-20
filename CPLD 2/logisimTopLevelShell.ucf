@@ -1,0 +1,23 @@
+# Clock Input
+NET "CLK" LOC = "P22";
+
+# Input Signals (QA-QH)
+NET "QA" LOC = "P21";
+NET "QB" LOC = "P20";
+NET "QC" LOC = "P19";
+NET "QD" LOC = "P18";
+NET "QE" LOC = "P16";
+NET "QF" LOC = "P14";
+NET "QG" LOC = "P13";
+NET "QH" LOC = "P12";
+
+# Output Signals (Ones, Tens, 7-segments)
+NET "Ones" LOC = "P38";
+NET "Tens" LOC = "P39";
+NET "sa"   LOC = "P23";
+NET "sb"   LOC = "P27";
+NET "sc"   LOC = "P28";
+NET "sd"   LOC = "P29";
+NET "se"   LOC = "P30";
+NET "sf"   LOC = "P31";
+NET "sg"   LOC = "P32";
